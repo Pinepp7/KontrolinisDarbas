@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KontrolinisDarbas", "KontrolinisDarbas.csproj", "{E8AE63DF-F636-440A-89CC-07C3C34FD2FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market", "..\Market\Market.csproj", "{663EE0D9-E824-4BC5-AA57-C783E74DF78F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD} = {E8AE63DF-F636-440A-89CC-07C3C34FD2FD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testai", "..\Testai\Testai.csproj", "{EB8903D6-DDB5-4C62-8FC5-57E07624AD66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD} = {E8AE63DF-F636-440A-89CC-07C3C34FD2FD}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6D8C183-72B7-4B98-9C1A-A81AEE3AAB74}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AE63DF-F636-440A-89CC-07C3C34FD2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663EE0D9-E824-4BC5-AA57-C783E74DF78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663EE0D9-E824-4BC5-AA57-C783E74DF78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663EE0D9-E824-4BC5-AA57-C783E74DF78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663EE0D9-E824-4BC5-AA57-C783E74DF78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8903D6-DDB5-4C62-8FC5-57E07624AD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8903D6-DDB5-4C62-8FC5-57E07624AD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8903D6-DDB5-4C62-8FC5-57E07624AD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8903D6-DDB5-4C62-8FC5-57E07624AD66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C97AD41-FE53-41D5-8D5B-CC1F934A4558}
+	EndGlobalSection
+EndGlobal
